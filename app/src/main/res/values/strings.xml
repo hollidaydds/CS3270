@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CS3270A7 Hale</string>
+    <string name="menu_save">save</string>
+    <string name="menu_delete">delete</string>
+    <string name="db_name">Couses</string>
+
+</resources>

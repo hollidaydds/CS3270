@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hollida.cs3270a7.CourseViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|right"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ID:"
+            android:id="@+id/id_tag"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/id_val"
+            android:background="@drawable/back"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="left|right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name:"
+            android:id="@+id/name_tag"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/name_val"
+            android:background="@drawable/back"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="left|right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Course Code:"
+            android:id="@+id/course_tag"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/course_val"
+            android:background="@drawable/back"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="left|right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Start At:"
+            android:id="@+id/start_tag"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/start_val"
+            android:background="@drawable/back"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="left|right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="End At:"
+            android:id="@+id/end_tag"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/end_val"
+            android:background="@drawable/back"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="left|right" />
+    </LinearLayout>
+</LinearLayout>
